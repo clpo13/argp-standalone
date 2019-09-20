@@ -92,7 +92,8 @@ if test x$GCC = xyes ; then
   CFLAGS="$CFLAGS -Wall -W \
  -Wmissing-prototypes -Wmissing-declarations -Wstrict-prototypes \
  -Waggregate-return \
- -Wpointer-arith -Wbad-function-cast -Wnested-externs"
+ -Wpointer-arith -Wbad-function-cast -Wnested-externs \
+ -fgnu89-inline"
 fi
 
 CPPFLAGS="$CPPFLAGS -I$srcdir"
