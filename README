@@ -1,1 +1,8 @@
 Standalone copy of argp from glibc
+
+Build in the usual way:
+
+autoreconf -i (if working from a cloned git repo)
+./configure
+make
+make install
