@@ -1,7 +1,7 @@
 dnl Process this file with autoconf to produce a configure script.
 
 dnl This configure.ac is only for building a standalone argp library.
-AC_INIT([argp], [standalone-1.3])
+AC_INIT([argp], [standalone-1.3.1])
 AC_PREREQ(2.54)
 AC_CONFIG_SRCDIR([argp-ba.c])
 # Needed to stop autoconf from looking for files in parent directories.
